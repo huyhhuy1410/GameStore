@@ -1,0 +1,29 @@
+@charset "utf-8";
+a {color: #1b5af8; text-decoration: none;} 
+  
+a:hover {text-decoration: underline;} 
+#donhang 
+ 
+#donhang h1, h2 {margin-bottom: 15px} 
+  
+#donhang h1 {font-size: 18px;} 
+#donhang h2 {font-size: 16px} 
+    #donhang table { 
+		right:80;
+            width: 480px; 
+        } 
+          
+            #donhang table th { 
+                padding: 10px; 
+                background-color: #1249d6; 
+                color: #fff; 
+                text-align: center; 
+            } 
+              
+            #donhang table td { 
+                padding: 5px;
+				text-align: center; 
+            } 
+            #donhang table tr { 
+                background-color: #d3dcf2; 
+            }

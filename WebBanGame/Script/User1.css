@@ -1,0 +1,265 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Nút Để Mở Chatbox */
+ .nut-mo-chatbox {
+   background-color: #555;
+   color: white;
+   padding: 16px 20px;
+   border: none;
+   cursor: pointer;
+   opacity: 0.8;
+   position: fixed;
+   bottom: 23px;
+   right: 28px;
+   width: 280px;
+ }
+/* Ẩn chatbox mặc định */
+ .Chatbox {
+   display: none;
+   position: fixed;
+   bottom: 0;
+   right: 15px;
+   border: 3px solid #f1f1f1;
+   z-index: 9;
+ }
+/* Thêm style cho form */
+ .form-container {
+   max-width: 300px;
+   padding: 10px;
+   background-color: white;
+ }
+/* thiết lập style textarea */
+ .form-container textarea {
+   width: 100%;
+   padding: 15px;
+   margin: 5px 0 22px 0;
+   border: none;
+   background: #f1f1f1;
+   resize: none;
+   min-height: 200px;
+ }
+/*thiết lập style cho textarea khi được focus */
+ .form-container textarea:focus {
+   background-color: #ddd;
+   outline: none;
+ }
+/* Thiết lập style cho nút trong form*/
+ .form-container .btn {
+   background-color: #4CAF50;
+   color: white;
+   padding: 16px 20px;
+   border: none;
+   cursor: pointer;
+   width: 100%;
+   margin-bottom:10px;
+   opacity: 0.8;
+ }/* Thiết lập màu nền cho nút đóng chatbox */
+ .form-container .nut-dong-chatbox {
+   background-color: red;
+ }
+/* Thêm hiệu ứng hover cho nút*/
+ .form-container .btn:hover, .nut-mo-chatbox:hover {
+   opacity: 1;
+ }
+.logodangky
+{
+    margin: 0px auto;
+    text-align:center;
+}
+.logodangky img
+{
+    width:150px;
+    margin-top:-10px;
+}
+.form1 {
+    border: 1px solid #80808000;
+    grid-column: 6/9;
+    grid-row: 3;
+    height: 100%;
+    width: 50%;   
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0px 0px 14px 0px grey;
+    background: linear-gradient(to right, purple, pink);
+    margin: 0px auto;
+}
+.form {
+    border: 1px solid #80808000;
+    grid-column: 6/9;
+    grid-row: 3;
+    height: 100%;
+    width: 50%;   
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0px 0px 14px 0px grey;
+    background: linear-gradient(to right, purple, pink);
+    margin: 0px auto;
+}
+h2 {
+    margin-top: 10px;
+
+    text-align: center;
+
+}
+.to {
+    display: flex;
+    margin-top: 5%;
+    width: 150%;
+    margin-left: -25%;
+    margin-bottom: 5%;
+}
+fieldset
+{
+    border-right: none;
+    border-left: none;
+    border-bottom:none;
+    border-top-style: double;
+    border-top-width: 2px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-color: black;
+}
+legend{
+    font-size: 50px;
+    text-align: center;
+    padding: 0 15px;
+    font-family: Arial;
+    color:yellow;
+	text-shadow: 2px 2px 1px black;
+font-weight: bold;
+
+}
+.nhap1
+{
+    margin: 15px auto;
+}
+.nhap
+{
+    margin: 15px auto;
+    margin-left:50px;
+}
+.nhap input
+{
+    border-radius: 10px;
+    border: solid 0.5px;
+    width:90%;
+    height:30px;
+    padding: 5px;
+    font-size: 20px;
+    font-family: Arial;
+    padding-left:30px;
+}
+.quayve
+{
+    padding: 3% 0;
+}
+.quayve a
+{
+    text-decoration: none;
+    color: blue;
+}
+.benphai
+{
+padding-left: 57%;
+}
+.benphai, .bentrai
+{
+    font-weight: bolder;
+}
+.nutdangky input
+{
+    background: linear-gradient(to right, #fc00ff, #00dbde);
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    display: block;
+    outline-style: none;
+    display: block;
+    padding: 8px;
+    margin-left: 9%;
+    color: white;
+    font-weight: bolder;
+    box-shadow: 2px 2px 1px black;
+}
+.nutdangky{
+    padding: 8px;
+}
+.checkbox
+{
+    padding: 1% 0;
+    font-size: 20px;
+    margin-left:50px;
+
+}
+.nhap { 
+    position: relative; 
+} 
+
+.nhap i{ 
+    position: absolute; 
+    left: 10px; 
+    top:8px; 
+    color: gray;
+} 
+.nutdangnhap input
+{
+    background: linear-gradient(to right, #fc00ff, #00dbde);
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    display: block;
+    outline-style: none;
+    display: block;
+    padding: 8px;
+    margin-left: 10%;
+    color: white;
+    font-weight: bolder;
+    box-shadow: 2px 2px 1px black;
+}
+.nutdangnhap{
+    padding: 8px;
+}
+.nutreset input
+{
+    background: linear-gradient(to right, #fc00ff, #00dbde);
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    display: block;
+    outline-style: none;
+    display: block;
+    padding: 8px;
+    margin-left: 10%;
+    color: white;
+    font-weight: bolder;
+    box-shadow: 2px 2px 1px black;
+}
+.nutreset{
+    padding: 8px;
+}
+.nhap1 h3
+{
+   text-align: center;
+   font-size: 150%;
+}
+.nhap1 h3,.nhap1 p
+{
+    margin: 5%  0;
+}
+.logodangky h3
+{
+    margin-top: 1%;
+}
+.nhap1 p
+{
+    font-size: 18px;
+}
+

@@ -1,0 +1,8 @@
+<?php
+$servername	=	"localhost";
+$username	=	"huy";
+$pass		=	"123";
+$dbname		=	"game";
+$conn		=	@mysqli_connect($servername, $username, $pass, $dbname);
+if (!$conn)
+	echo "Kết nối thất bại".mysqli_connect_error();
